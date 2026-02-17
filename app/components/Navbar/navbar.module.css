@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid #e8e5e0;
+  background-color: #fdfbf7; /* bianco naturale */
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #3e3a34;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #7a766f; /* verde/grigio neutro */
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #3e3a34;
+}
+
+.active {
+  color: #3e3a34;
+  font-weight: 500;
+}
