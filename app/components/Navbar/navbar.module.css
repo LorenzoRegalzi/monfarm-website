@@ -1,7 +1,8 @@
 .header {
   width: 100%;
   border-bottom: 1px solid #e8e5e0;
-  background-color: #fdfbf7; /* bianco naturale */
+  background-color: #fdfbf7;
+  position: relative;
 }
 
 .nav {
@@ -21,6 +22,7 @@
   text-decoration: none;
 }
 
+/* Desktop menu */
 .menu {
   display: flex;
   gap: 2rem;
@@ -30,7 +32,7 @@
 .link {
   font-size: 0.9rem;
   text-decoration: none;
-  color: #7a766f; /* verde/grigio neutro */
+  color: #7a766f;
   transition: color 0.3s ease;
 }
 
@@ -41,4 +43,58 @@
 .active {
   color: #3e3a34;
   font-weight: 500;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bar,
+.barOpen {
+  width: 22px;
+  height: 2px;
+  background-color: #3e3a34;
+  transition: all 0.3s ease;
+}
+
+/* Mobile menu */
+.mobileMenu {
+  display: none;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  background-color: #fdfbf7;
+  border-top: 1px solid #e8e5e0;
+}
+
+.mobileLink {
+  text-decoration: none;
+  color: #7a766f;
+  font-size: 1rem;
+  padding: 0.75rem 0;
+  transition: color 0.3s ease;
+}
+
+.mobileLink:hover {
+  color: #3e3a34;
+}
+
+.show {
+  display: flex;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }
