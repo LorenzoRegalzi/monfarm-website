@@ -1,0 +1,70 @@
+.hero {
+  max-width: 720px;
+}
+
+.subtitle {
+  margin-top: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ===== Layout contenuto ===== */
+
+.splitLayout {
+  max-width: 900px;
+}
+
+.content {
+  max-width: 720px;
+}
+
+.content p {
+  margin-top: 1.25rem;
+  line-height: 1.7;
+}
+
+/* ===== Lista ===== */
+
+.featureList {
+  margin-top: 1.5rem;
+  padding-left: 1.2rem;
+}
+
+.featureList li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+/* ===== Link ===== */
+
+.link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #3e3a34;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+/* ===== Parte finale centrata ===== */
+
+.centeredContent {
+  max-width: 720px;
+}
+
+.centeredContent p {
+  margin-top: 1.25rem;
+  line-height: 1.7;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  .splitLayout {
+    padding-right: 0;
+  }
+}

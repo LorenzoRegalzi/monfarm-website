@@ -1,0 +1,53 @@
+.section {
+  width: 100%;
+}
+
+/* ===== Spacing sizes ===== */
+
+.normal {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.large {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.compact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* ===== Background variants ===== */
+
+.default {
+  background-color: #ffffff;
+}
+
+.beige {
+  background-color: #f6f2ea;
+}
+
+.sage {
+  background-color: #e9efe8;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  .normal {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .large {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .compact {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
