@@ -1,0 +1,125 @@
+.hero {
+  max-width: 720px;
+}
+
+.subtitle {
+  margin-top: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* ===== INTRO ===== */
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro p {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+/* ===== FORM ===== */
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.field label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 0.8rem;
+  border: 1px solid #d8d3cc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #ffffff;
+  transition: border 0.3s ease;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: #3e3a34;
+}
+
+/* ===== CHECKBOX ===== */
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.checkbox label {
+  font-size: 0.9rem;
+}
+
+/* ===== BUTTON ===== */
+
+.button {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid #3e3a34;
+  background: transparent;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #3e3a34;
+  color: #ffffff;
+}
+
+/* ===== EMAIL ===== */
+
+.directContact {
+  text-align: center;
+}
+
+.directContact p {
+  margin-bottom: 0.5rem;
+}
+
+.directContact a {
+  text-decoration: none;
+  color: #3e3a34;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.directContact a:hover {
+  opacity: 0.6;
+}
+
+/* ===== CHIUSURA ===== */
+
+.closing {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.7;
+}

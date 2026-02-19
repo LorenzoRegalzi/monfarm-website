@@ -1,6 +1,7 @@
 import Section from "../components/layout/Section/Section";
 import PageContainer from "../components/layout/PageContainer/PageContainer";
 import styles from "./targetAudience.module.css";
+import ImageTextBlock from "../components/ui/ImageTextBlock/ImageTextBlock";
 
 export default function TargetAudience() {
   return (
@@ -8,13 +9,17 @@ export default function TargetAudience() {
       {/* HERO */}
       <Section size="large">
         <PageContainer>
-          <div className={styles.hero}>
+          <ImageTextBlock
+            title="Per strutture immerse nella natura"
+            imageSrc="/images/home-hero.jpeg"
+            imageAlt="Agriturismo immerso nella natura"
+            >
             <h1>A chi è rivolto</h1>
             <h2 className={styles.subtitle}>
               MonFarm Experience nasce per creare connessioni tra luoghi,
               professionisti e persone che condividono una stessa visione.
             </h2>
-          </div>
+           </ImageTextBlock>
         </PageContainer>
       </Section>
 
@@ -35,7 +40,7 @@ export default function TargetAudience() {
 
               <p>
                 Non si tratta di affittare uno spazio per un evento, ma di
-                costruire un’esperienza in sintonia con l’identità del luogo.
+                costruire un'esperienza in sintonia con l'identità del luogo.
               </p>
 
               <ul className={styles.featureList}>
@@ -56,10 +61,12 @@ export default function TargetAudience() {
       {/* OPERATORI */}
       <Section background="beige">
         <PageContainer>
-          <div className={styles.splitLayout}>
-            <div className={styles.content}>
-              <h2>Per operatori e facilitatori</h2>
-
+          <ImageTextBlock
+            title="Per operatori e facilitatori"
+            imageSrc="/images/home-hero.jpeg"
+            imageAlt="Facilitatore durante un'esperienza"
+            reverse
+            >
               <p>
                 Se accompagni le persone attraverso pratiche come yoga,
                 movimento dolce, journaling, dialogo guidato o arti espressive,
@@ -86,20 +93,21 @@ export default function TargetAudience() {
               <a href="#" className={styles.link}>
                 Collabora come operatore →
               </a>
-            </div>
-          </div>
+            </ImageTextBlock>
         </PageContainer>
       </Section>
 
       {/* PARTECIPANTI */}
       <Section>
         <PageContainer>
-          <div className={styles.centeredContent}>
-            <h2>Per chi sente il bisogno di riconnettersi</h2>
-
+          <ImageTextBlock
+            title="Per chi sente il bisogno di riconnettersi"
+            imageSrc="/images/home-hero.jpeg"
+            imageAlt="Piccolo gruppo in esperienza immersiva"
+            >
             <p>
               MonFarm Experience è pensato per chi desidera fermarsi,
-              respirare e vivere un’esperienza immersiva nella natura,
+              respirare e vivere un'esperienza immersiva nella natura,
               lontano dai ritmi accelerati.
             </p>
 
@@ -112,7 +120,7 @@ export default function TargetAudience() {
               Questo sito non propone prenotazioni o vendite dirette, ma
               racconta il progetto e le sue collaborazioni.
             </p>
-          </div>
+          </ImageTextBlock>
         </PageContainer>
       </Section>
     </>

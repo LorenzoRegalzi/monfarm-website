@@ -1,6 +1,7 @@
 import Section from "./components/layout/Section/Section";
 import PageContainer from "./components/layout/PageContainer/PageContainer";
 import styles from "./home.module.css";
+import ImageTextBlock from "./components/ui/ImageTextBlock/ImageTextBlock";
 
 export default function Home() {
   return (
@@ -8,7 +9,10 @@ export default function Home() {
       {/* HERO */}
       <Section size="large">
         <PageContainer>
-          <div className={styles.hero}>
+          <ImageTextBlock
+            imageSrc="/images/home-hero.jpeg"
+            imageAlt="Esperienza immersiva nella natura"
+          >
             <h1>MonFarm Experience</h1>
 
             <h2 className={styles.subtitle}>
@@ -25,7 +29,7 @@ export default function Home() {
             <button className={styles.primaryButton}>
               Scopri come collaborare
             </button>
-          </div>
+          </ImageTextBlock>
         </PageContainer>
       </Section>
 
