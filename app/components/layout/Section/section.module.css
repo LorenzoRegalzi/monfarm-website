@@ -22,15 +22,15 @@
 /* ===== Background variants ===== */
 
 .default {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .beige {
-  background-color: #f6f2ea;
+  background-color: var(--beige-light);
 }
 
 .sage {
-  background-color: #e9efe8;
+  background-color: var(--beige-medium);
 }
 
 /* ===== Responsive ===== */

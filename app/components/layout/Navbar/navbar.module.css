@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  border-bottom: 1px solid #e8e5e0;
-  background-color: #fdfbf7;
+  border-bottom: 1px solid var(--border-light);
+  background-color: var(--beige-light);
   position: relative;
 }
 
@@ -18,7 +18,7 @@
   font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: 0.5px;
-  color: #3e3a34;
+  color: var(--gray-dark);
   text-decoration: none;
 }
 
@@ -32,16 +32,16 @@
 .link {
   font-size: 0.9rem;
   text-decoration: none;
-  color: #7a766f;
+  color: var(--gray-light);
   transition: color 0.3s ease;
 }
 
 .link:hover {
-  color: #3e3a34;
+  color: var(--gray-dark);
 }
 
 .active {
-  color: #3e3a34;
+  color: var(--gray-dark);
   font-weight: 500;
 }
 
@@ -59,7 +59,7 @@
 .barOpen {
   width: 22px;
   height: 2px;
-  background-color: #3e3a34;
+  background-color: var(--gray-dark);
   transition: all 0.3s ease;
 }
 
@@ -68,20 +68,20 @@
   display: none;
   flex-direction: column;
   padding: 1.5rem 2rem;
-  background-color: #fdfbf7;
-  border-top: 1px solid #e8e5e0;
+  background-color: var(--beige-light);
+  border-top: 1px solid var(--border-light);
 }
 
 .mobileLink {
   text-decoration: none;
-  color: #7a766f;
+  color: var(--gray-light);
   font-size: 1rem;
   padding: 0.75rem 0;
   transition: color 0.3s ease;
 }
 
 .mobileLink:hover {
-  color: #3e3a34;
+  color: var(--gray-dark);
 }
 
 .show {

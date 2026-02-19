@@ -72,15 +72,15 @@
   margin-top: 2rem;
   padding: 0.9rem 2rem;
   text-decoration: none;
-  border: 1px solid #3e3a34;
+  border: 1px solid var(--gray-dark);
   border-radius: 6px;
-  color: #3e3a34;
+  color: var(--gray-dark);
   transition: all 0.3s ease;
 }
 
 .button:hover {
-  background-color: #3e3a34;
-  color: #ffffff;
+  background-color: var(--gray-dark);
+  color: var(--white);
 }
 
 /* ===== Responsive ===== */

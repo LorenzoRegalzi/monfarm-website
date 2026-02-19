@@ -48,10 +48,10 @@
 .field select,
 .field textarea {
   padding: 0.8rem;
-  border: 1px solid #d8d3cc;
+  border: 1px solid var(--border-light);
   border-radius: 6px;
   font-size: 1rem;
-  background: #ffffff;
+  background: var(--white);
   transition: border 0.3s ease;
 }
 
@@ -59,7 +59,7 @@
 .field select:focus,
 .field textarea:focus {
   outline: none;
-  border-color: #3e3a34;
+  border-color: var(--gray-dark);
 }
 
 /* ===== CHECKBOX ===== */
@@ -80,7 +80,7 @@
 .button {
   width: 100%;
   padding: 0.9rem;
-  border: 1px solid #3e3a34;
+  border: 1px solid var(--gray-dark);
   background: transparent;
   border-radius: 6px;
   font-size: 1rem;
@@ -89,8 +89,8 @@
 }
 
 .button:hover {
-  background: #3e3a34;
-  color: #ffffff;
+  background: var(--gray-dark);
+  color: var(--white);
 }
 
 /* ===== EMAIL ===== */
@@ -105,7 +105,7 @@
 
 .directContact a {
   text-decoration: none;
-  color: #3e3a34;
+  color: var(--gray-dark);
   font-weight: 500;
   transition: opacity 0.3s ease;
 }

@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
-  border-top: 1px solid #e8e5e0;
-  background-color: #fdfbf7; /* bianco naturale */
+  border-top: 1px solid var(--border-light);
+  background-color: var(--beige-light); /* bianco naturale */
 }
 
 .container {
@@ -24,13 +24,13 @@
 .logo {
   font-size: 1rem;
   font-weight: 500;
-  color: #3e3a34;
+  color: var(--gray-dark);
   margin-bottom: 0.75rem;
 }
 
 .tagline {
   font-size: 0.9rem;
-  color: #7a766f;
+  color: var(--gray-light);
   line-height: 1.6;
 }
 
@@ -43,18 +43,18 @@
 .links a {
   text-decoration: none;
   font-size: 0.9rem;
-  color: #7a766f;
+  color: var(--gray-light);
   transition: color 0.3s ease;
 }
 
 .links a:hover {
-  color: #3e3a34;
+  color: var(--gray-dark);
 }
 
 .bottom {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #e8e5e0;
+  border-top: 1px solid var(--border-light);
   font-size: 0.8rem;
-  color: #a29d96;
+  color: var(--gray-medium);
 }
